@@ -1063,11 +1063,12 @@ background: #c0392b;
   top: 45px;
   height: 10px;
   content: '\a0';
-  background-color: #f4dc26;
+  background-color: #e0e0e0;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
-  flex-grow: 1;  /*  border: 10px solid #f4dc26;*/
+  flex-grow: 1;
+  /*  border: 10px solid #f4dc26;*/
 }
 
 .seo-text h2:before {
@@ -1087,8 +1088,9 @@ background: #c0392b;
 }
 
 .seo-text-box {
-  border-right: 10px solid #f4dc26;
-  border-left: 10px solid #f4dc26;
+  border-right: 10px solid #e0e0e0;
+  border-left: 10px solid #e0e0e0;
+  border-color: #e0e0e0;
 }
 
 .seo-text-box {
@@ -1114,7 +1116,7 @@ background: #c0392b;
   -ms-transform: rotate(-2deg);
   -o-transform: rotate(-2deg);
   transform: rotate(-2deg);
-  background: #f4dc26;
+  background: #e0e0e0;
 }
 
 .seo-text-box:before {
@@ -1136,13 +1138,13 @@ background: #c0392b;
 
 .complekt {
   position: relative;
-  height: 766px;
+  height: 806px;
   padding-top: 20px;
   background-color: #f6f6f6;
 }
 
 .complekt .main-title {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .complekt .container .col.three {
@@ -1157,8 +1159,11 @@ background: #c0392b;
   -o-transition: all .25s ease;
   transition: all .25s ease;
   text-align: center;
-  border: 10px solid #f4dc26;
+  border: 5px solid #e0e0e0;
   background-color: white;
+  width: 377px;
+  height: 667px;
+  padding-top: 1px;
 }
 
 .complekt .container .col.three:hover {
@@ -1172,30 +1177,37 @@ background: #c0392b;
   position: relative;
   z-index: 5;
   margin-bottom: 0;
+  /* color: #333; */
   color: #333;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .complekt .container .col img {
   position: relative;
-  top: -40px;
+  top: 20px;
   max-width: 260px;
 }
 
 .complekt .container .price {
-  font-size: 36px;
-  font-weight: 700;
-  position: absolute;
-  bottom: 99px;
+  display: inline-block !important;
+  position: static;
+  bottom: 59px;
   display: block;
   width: 358px;
   text-align: center;
-  color: #ec1c23;
+  color: #76ad21;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 76px;
 }
 
 .complekt .container #order-btn {
   position: absolute;
-  bottom: 25px;
-  left: 50%;
+  bottom: 20px;
+  left: 40%;
   height: 50px;
   margin-left: -96px;
 }
@@ -1222,11 +1234,20 @@ background: #c0392b;
   text-transform: uppercase;
   color: black;
   border: 1px solid #ca9100;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   background-color: #afafaf;
-  background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%);
-  background-image: linear-gradient(to top, #f1cb00 0%, #f7ea44 100%);
-  box-shadow: 0 3px 0 #ca9100;
+  /* background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%); */
+  /* background-image: linear-gradient(to top, #f1cb00 0%, #f7ea44 100%); */
+  /* box-shadow: 0 3px 0 #ca9100; */
+  width: 252px;
+  height: 40px;
+  background-color: #f33;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 40px;
 }
 
 .center {
@@ -3199,4 +3220,13 @@ h1.car-model {
 .tel-box .inner-2.box-head {
   position: absolute;
   right: 45px;
+  }
+  .strike-red {
+    display:inline-block;
+    color: #ec1c23;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: line-through;
+    position: static;
   }

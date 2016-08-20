@@ -273,6 +273,15 @@ Column specifics
 .col h1 {
   padding: 0 1%;
   text-align: center;
+  width: 290px;
+  margin: 20px auto 0;
+  color: #333;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  position: relative;
+  top: 0px;
 }
 
 .group.margin {
