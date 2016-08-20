@@ -163,6 +163,7 @@
   text-align: center;
   letter-spacing: 0.725px;
   text-indent: 33px;
+  font-family: "Roboto";
 }
 
 .tel-panel .tel-box {
@@ -210,7 +211,7 @@
   border-radius: 3px;
   /* background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%); */
   /* background-image: linear-gradient(to top, #f1cb00 0%, #f7ea44 100%); */
-  box-shadow: 0 3px 0 #ca9100;
+  box-shadow: 0 3px 0 #d01111;
   background-color: #f33;
   font-size: 14px;
   text-align: right;
