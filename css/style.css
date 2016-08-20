@@ -254,7 +254,7 @@
 }
 
 .slider-baner .slide h1 {
-  font-size: 60px;
+  /* font-size: 60px; */
   font-weight: 400;
   line-height: 54px;
   width: 735px;
@@ -262,6 +262,12 @@
   letter-spacing: -.05em;
   color: #fff;
   color: white;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .wrapper {
@@ -282,6 +288,11 @@
   line-height: 47px;
   display: inline-block;
   color: #ec1c23;
+  color: #fff;
+  font-family: Roboto;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 b {
@@ -343,9 +354,14 @@ b {
   font-size: 81px;
   font-weight: 700;
   line-height: 76px;
-  display: inline-block;
-  margin-left: 41px;
+  display: block;
+  margin-left: 0;
   color: #ffd800;
+  color: #ffd800;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 76px;
 }
 
 .skidka-sticker {
@@ -784,7 +800,7 @@ textarea:-ms-input-placeholder {
     z-index: 2;
     top: 8px;
     right: 15px;
-    content: 'â˜°';
+    content: 'Ã¢ËœÂ°';
     pointer-events: none;
   }
 
@@ -2726,7 +2742,7 @@ div.clock-delit {
   font-size: 16px;
 }
 
-/*Ð’Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ÑÑ‚ÑŒ Ð²Ñ‹Ð±Ð¾Ñ€Ð° Ñ†Ð²ÐµÑ‚Ð° Ð°Ð²Ñ‚Ð¾ ÐºÐ¾Ð²Ñ€Ð¸ÐºÐ°*/
+/*Ãâ€™ÃÂ¾ÃÂ·ÃÂ¼ÃÂ¾ÃÂ¶ÃÂ½ÃÂ¾Ã‘ÂÃ‘â€šÃ‘Å’ ÃÂ²Ã‘â€¹ÃÂ±ÃÂ¾Ã‘â‚¬ÃÂ° Ã‘â€ ÃÂ²ÃÂµÃ‘â€šÃÂ° ÃÂ°ÃÂ²Ã‘â€šÃÂ¾ ÃÂºÃÂ¾ÃÂ²Ã‘â‚¬ÃÂ¸ÃÂºÃÂ°*/
 .color {
 
   /*  padding-top: 25px;*/
