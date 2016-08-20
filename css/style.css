@@ -153,7 +153,9 @@
 .common-head .get-call {
   float: right;
   font-weight: 500;
-  letter-spacing: 1.9px;
+  text-align: center;
+  letter-spacing: 0.725px;
+  text-indent: 33px;
 }
 
 .tel-panel .tel-box {
