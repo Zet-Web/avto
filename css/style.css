@@ -81,11 +81,17 @@
 
 .nav {
   padding-left: 0;
+  position: relative;
+  top: -46px;
+  width: 100%;
+  background: #323232;
+  height: 40px;
+  overflow: hidden;
 }
 
 .nav li {
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 14px;
   margin-right: 59px;
 }
 
@@ -151,10 +157,11 @@
   width: 1180px;
   margin: auto;
   height: 44px;
-  background-color: #323232;
-  position: relative;
+  background-color: transparent;
+  /* position: absolute; */
   z-index: 9999;
   padding-left: 1px;
+  top: 0;
 }
 
 .common-head .get-call {
@@ -245,8 +252,9 @@
 
 .slider-baner {
   height: 500px;
-  margin-top: 128px;  /*background: rgba(0, 0, 0, 0) url("../img/baner-1.jpg") no-repeat scroll center center / cover ;*/
-  background: rgba(0, 0, 0, 0) url('../img/main5_02.jpg') no-repeat scroll center center / cover;
+  margin-top: 122px;
+  /*background: rgba(0, 0, 0, 0) url("../img/baner-1.jpg") no-repeat scroll center center / cover ;*/
+  background: rgba(0, 0, 0, 0) url('../img/main5_02.png') no-repeat scroll center center / cover;
 }
 
 .slider-baner .slide {
@@ -256,18 +264,20 @@
 .slider-baner .slide h1 {
   /* font-size: 60px; */
   font-weight: 400;
-  line-height: 54px;
-  width: 735px;
-  margin-top: -55px;
-  letter-spacing: -.05em;
+  line-height: 39px;
+  width: 785px;
+  margin-top: 5px;
+  letter-spacing: 3.6px;
   color: #fff;
   color: white;
   color: #fff;
-  font-family: Roboto;
-  font-size: 34px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .wrapper {
@@ -277,9 +287,10 @@
 
 .slider-baner .wrapper {
   position: absolute;
-  top: 135px;
+  top: 133px;
   left: 50%;
   margin-left: -600px;
+  padding-left: 20px;
 }
 
 .slider-baner .wrapper strike {
@@ -302,15 +313,15 @@ b {
 .slider-baner .wrapper .form {
   position: absolute;
   top: -95px;
-  right: 41px;
-  width: 385px;
-  height: 415px;
+  right: 43px;
+  width: 365px;
+  height: 424px;
 }
 
 .slider-baner .wrapper .form .form-head {
   height: 60px;
   padding-top: 1px;
-  background-color: #ffd800;
+  /* background-color: #ffd800; */
 }
 
 .slider-baner .wrapper .form-body {
@@ -323,13 +334,13 @@ b {
 .slider-baner .wrapper .form-foot {
   height: 94px;
   padding-top: 1px;
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
 }
 
 .slider-baner .wrapper .form-foot #get-discount {
   font-size: 24px;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 42px;
   display: block;
   width: 320px;
   height: 56px;
@@ -337,11 +348,19 @@ b {
   text-transform: uppercase;
   color: black;
   border: 1px solid #ca9100;
-  border-radius: 36px;
-  background-color: #afafaf;
-  background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%);
-  background-image: linear-gradient(to top, #f1cb00 0%, #f7ea44 100%);
+  border-radius: 3px;
+  background-color: #f33;
+  /* background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%); */
+  /* background-image: linear-gradient(to top, #f1cb00 0%, #f7ea44 100%); */
   box-shadow: 0 3px 0 #ca910;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 207px;
+  height: 40px;
+  border: none;
 }
 
 .form {
@@ -362,6 +381,7 @@ b {
   font-size: 48px;
   font-weight: 700;
   line-height: 76px;
+  letter-spacing: -1.95px;
 }
 
 .skidka-sticker {
@@ -379,7 +399,13 @@ b {
   padding-left: 30px;
   text-transform: uppercase;
   color: black;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.95px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
 .form input {
@@ -394,6 +420,11 @@ b {
   border: 1px solid #bbb;
   border-radius: 30px;
   background-color: white;
+  color: #999;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 66px;
 }
 
 ::-webkit-input-placeholder {
@@ -553,6 +584,12 @@ textarea:-ms-input-placeholder {
   letter-spacing: -.05em;
   text-transform: uppercase;
   color: black;
+  color: #000;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .brands .model-name {
