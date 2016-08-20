@@ -31,7 +31,7 @@ body {
   font-weight: 300;
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .section .container {
@@ -107,6 +107,10 @@ ul.nav li a {
   padding: 0;
   color: initial;
   text-decoration: initial;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 /*

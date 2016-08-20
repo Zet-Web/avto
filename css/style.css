@@ -85,8 +85,8 @@
 
 .nav li {
   display: inline-block;
-  margin-top: 0;
-  margin-right: 30px;
+  margin-top: 12px;
+  margin-right: 59px;
 }
 
 .nav li a:after {
@@ -148,6 +148,13 @@
 
 #main-menu .nav {
   float: none;
+  width: 1180px;
+  margin: auto;
+  height: 44px;
+  background-color: #323232;
+  position: relative;
+  z-index: 9999;
+  padding-left: 1px;
 }
 
 .common-head .get-call {
