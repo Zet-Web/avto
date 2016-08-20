@@ -85,7 +85,7 @@
   top: -46px;
   width: 100%;
   background: #323232;
-  height: 40px;
+  height: 48px;
   overflow: hidden;
 }
 
@@ -418,7 +418,7 @@ b {
   padding-left: 30px;
   color: black;
   border: 1px solid #bbb;
-  border-radius: 30px;
+  border-radius: 3px;
   background-color: white;
   color: #999;
   font-family: Roboto;
@@ -612,6 +612,12 @@ textarea:-ms-input-placeholder {
   line-height: 78px;
   text-align: center;
   color: black;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 81px;
+  text-transform: uppercase;
 }
 
 .main-title  h1 {
@@ -619,8 +625,13 @@ textarea:-ms-input-placeholder {
   font-weight: 500;
   line-height: 78px;
   text-align: center;
-  color: black;
+  color: white;
   margin: 0px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 81px;
+  text-transform: uppercase;
 }
 
 .brands #image {
@@ -695,7 +706,7 @@ textarea:-ms-input-placeholder {
   position: relative;
   height: 1010px;
   padding-top: 43px;
-  background: url('../img/main3_02.jpg');
+  background: url('../img/salon.jpg');
   background-repeat: no-repeat;
   background-position: 35px 10px;
   background-position: left;
