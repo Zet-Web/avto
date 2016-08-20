@@ -531,7 +531,7 @@ Responsive
 }
 
 .slick-slide {
-    display: none;
+      display: none;
     float: left;
     height: 100%;
     min-height: 1px;
@@ -800,4 +800,16 @@ span.bigs {
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 2000;
+}
+
+
+.reviews .item {
+    position: relative;
+    float: left;
+    text-align: center;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
+    border-image: initial;
 }
