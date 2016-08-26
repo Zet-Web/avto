@@ -12,7 +12,14 @@
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
+.brands #image .item:nth-of-type(12+12) {
+  margin-right:0;
+}
 
+.advantages .main-title h1 {
+  line-height: 50px;
+  margin-top: 16px;
+}
 .Clear {
   clear: both;
 }
@@ -92,7 +99,7 @@
 .nav li {
   display: inline-block;
   margin-top: 14px;
-  margin-right: 59px;
+  margin-right: 61px;
 }
 
 .nav li a:after {
@@ -160,7 +167,7 @@
   background-color: transparent;
   /* position: absolute; */
   z-index: 9999;
-  padding-left: 1px;
+  padding-left: 7px;
   top: 0;
 }
 
@@ -266,8 +273,8 @@
   font-weight: 400;
   line-height: 39px;
   width: 785px;
-  margin-top: 5px;
-  letter-spacing: 3.6px;
+  margin-top: 8px;
+  letter-spacing: -0.2px;
   color: #fff;
   color: white;
   color: #fff;
@@ -296,7 +303,7 @@
 .slider-baner .wrapper strike {
   font-size: 50px;
   font-weight: 500;
-  line-height: 47px;
+  line-height: 56px;
   display: inline-block;
   color: #ec1c23;
   color: #fff;
@@ -329,6 +336,7 @@ b {
   height: 260px;
   margin: auto;
   padding-top: 30px;
+  padding: 30px 0px;
 }
 
 .slider-baner .wrapper .form-foot {
@@ -344,7 +352,7 @@ b {
   display: block;
   width: 320px;
   height: 56px;
-  margin: 18px auto 0;
+  margin: 30px auto 0;
   text-transform: uppercase;
   color: black;
   border: 1px solid #ca9100;
@@ -395,7 +403,7 @@ b {
   font-weight: 700;
   line-height: 30px;
   display: block;
-  margin-top: 15px;
+  margin-top: 45px;
   padding-left: 30px;
   text-transform: uppercase;
   color: black;
@@ -412,10 +420,10 @@ b {
   font-size: 20px;
   font-weight: 500;
   line-height: 36px;
-  width: 318px;
+  width: 294px;
   height: 46px;
   margin-bottom: 10px;
-  padding-left: 30px;
+  padding-left: 17px;
   color: black;
   border: 1px solid #bbb;
   border-radius: 3px;
@@ -424,7 +432,8 @@ b {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 66px;
+  line-height: 58px;
+  margin-left: 10px;
 }
 
 ::-webkit-input-placeholder {
@@ -581,7 +590,7 @@ textarea:-ms-input-placeholder {
   font-weight: 700;
   margin-bottom: 5px;
   text-align: center;
-  letter-spacing: -.05em;
+  letter-spacing: -0.55px;
   text-transform: uppercase;
   color: black;
   color: #000;
@@ -590,6 +599,7 @@ textarea:-ms-input-placeholder {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 13px;
 }
 
 .brands .model-name {
@@ -624,6 +634,7 @@ textarea:-ms-input-placeholder {
   font-weight: 500;
   line-height: 80px;
   text-transform: uppercase;
+  letter-spacing: 0.35px;
 }
 
 .main-title  h1 {
@@ -644,12 +655,17 @@ textarea:-ms-input-placeholder {
   position: relative;
   margin: 0 0;
   padding: 10px;
+  top: -40px;
+  left: -5px;
+  height: 397px;
+  overflow-x: hidden;
+  width: 1230px;
 }
 
 .brands #image .item {
   position: relative;
   display: inline-block;
-  margin: 11px;
+  margin: 11px 1px 11px 0;
   -webkit-transition: all .25s;
   -moz-transition: all .25s;
   -ms-transition: all .25s;
@@ -657,6 +673,8 @@ textarea:-ms-input-placeholder {
   transition: all .25s;
   transform: translateZ(0px);
   border-radius: 49px;
+  margin-right: 6px;
+  text-align: center;
 }
 
 .brands #image .item  img {
@@ -711,7 +729,7 @@ textarea:-ms-input-placeholder {
 .advantages {
   position: relative;
   height: 1010px;
-  padding-top: 43px;
+  padding-top: 6px;
   background: url('../img/salon.jpg');
   background-repeat: no-repeat;
   background-position: 35px 10px;
@@ -750,6 +768,7 @@ textarea:-ms-input-placeholder {
   letter-spacing: -.05em;
   text-transform: uppercase;
   color: black;
+  letter-spacing: -2.15px;
 }
 
 .advantages .box-wrapper .box p {
@@ -809,7 +828,7 @@ textarea:-ms-input-placeholder {
 }
 
 .advantages .main-title {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 /****************************
@@ -854,7 +873,7 @@ textarea:-ms-input-placeholder {
     z-index: 2;
     top: 8px;
     right: 15px;
-    content: 'Ã¢ËœÂ°';
+    content: 'ÃƒÂ¢Ã‹Å“Ã‚Â°';
     pointer-events: none;
   }
 
@@ -2838,7 +2857,7 @@ div.clock-delit {
   font-size: 16px;
 }
 
-/*Ãâ€™ÃÂ¾ÃÂ·ÃÂ¼ÃÂ¾ÃÂ¶ÃÂ½ÃÂ¾Ã‘ÂÃ‘â€šÃ‘Å’ ÃÂ²Ã‘â€¹ÃÂ±ÃÂ¾Ã‘â‚¬ÃÂ° Ã‘â€ ÃÂ²ÃÂµÃ‘â€šÃÂ° ÃÂ°ÃÂ²Ã‘â€šÃÂ¾ ÃÂºÃÂ¾ÃÂ²Ã‘â‚¬ÃÂ¸ÃÂºÃÂ°*/
+/*ÃƒÂÃ¢â‚¬â„¢ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â·ÃƒÂÃ‚Â¼ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â¶ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¾Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã…â€™ ÃƒÂÃ‚Â²Ãƒâ€˜Ã¢â‚¬Â¹ÃƒÂÃ‚Â±ÃƒÂÃ‚Â¾Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â° Ãƒâ€˜Ã¢â‚¬Â ÃƒÂÃ‚Â²ÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â° ÃƒÂÃ‚Â°ÃƒÂÃ‚Â²Ãƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â¾ ÃƒÂÃ‚ÂºÃƒÂÃ‚Â¾ÃƒÂÃ‚Â²Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¸ÃƒÂÃ‚ÂºÃƒÂÃ‚Â°*/
 .color {
 
   /*  padding-top: 25px;*/
