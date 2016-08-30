@@ -1,4 +1,4 @@
-@import 'https: //fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic,latin-ext';
 
 /* Webfont: PFDinDisplayPro-Medium */
 @font-face {
@@ -323,6 +323,7 @@ b {
   right: 43px;
   width: 365px;
   height: 424px;
+  border-radius: 5px;
 }
 
 .slider-baner .wrapper .form .form-head {
@@ -437,7 +438,7 @@ b {
 }
 
 ::-webkit-input-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-size: 20px;
   font-weight: 500;
@@ -448,7 +449,7 @@ b {
 }
 
 :-moz-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -457,7 +458,7 @@ b {
 }
 
 ::-moz-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -466,7 +467,7 @@ b {
 }
 
 :-ms-input-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -475,7 +476,7 @@ b {
 }
 
 textarea::-webkit-input-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-size: 20px;
   font-weight: 500;
@@ -487,7 +488,7 @@ textarea::-webkit-input-placeholder {
 }
 
 textarea:-moz-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 30px;
@@ -496,7 +497,7 @@ textarea:-moz-placeholder {
 }
 
 textarea::-moz-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 30px;
@@ -505,7 +506,7 @@ textarea::-moz-placeholder {
 }
 
 textarea:-ms-input-placeholder {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 30px;
@@ -655,7 +656,7 @@ textarea:-ms-input-placeholder {
   position: relative;
   margin: 0 0;
   padding: 10px;
-  top: -40px;
+  top: 10px;
   left: -5px;
   height: 397px;
   overflow-x: hidden;
@@ -774,7 +775,7 @@ textarea:-ms-input-placeholder {
 .advantages .box-wrapper .box p {
   font-size: 18px;
   font-weight: 400;
-  padding: 0 60px;
+  /* padding: 0 60px; */
   text-align: center;
   letter-spacing: -.05em;
   color: black;
@@ -873,7 +874,7 @@ textarea:-ms-input-placeholder {
     z-index: 2;
     top: 8px;
     right: 15px;
-    content: 'ÃƒÂ¢Ã‹Å“Ã‚Â°';
+    content: 'ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒâ€šÃ‚Â°';
     pointer-events: none;
   }
 
@@ -2857,7 +2858,7 @@ div.clock-delit {
   font-size: 16px;
 }
 
-/*ÃƒÂÃ¢â‚¬â„¢ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â·ÃƒÂÃ‚Â¼ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â¶ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¾Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã…â€™ ÃƒÂÃ‚Â²Ãƒâ€˜Ã¢â‚¬Â¹ÃƒÂÃ‚Â±ÃƒÂÃ‚Â¾Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â° Ãƒâ€˜Ã¢â‚¬Â ÃƒÂÃ‚Â²ÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â° ÃƒÂÃ‚Â°ÃƒÂÃ‚Â²Ãƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â¾ ÃƒÂÃ‚ÂºÃƒÂÃ‚Â¾ÃƒÂÃ‚Â²Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¸ÃƒÂÃ‚ÂºÃƒÂÃ‚Â°*/
+/*ÃƒÆ’Ã‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â·ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¼ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¶ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â½ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬ËœÃƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â±ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â° ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂµÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â° ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â°ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂºÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¸ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂºÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â°*/
 .color {
 
   /*  padding-top: 25px;*/
@@ -3276,3 +3277,23 @@ h1.car-model {
     text-decoration: line-through;
     position: static;
   }
+  .discount-rorm input::-webkit-input-placeholder {
+  font-size:16px;
+  line-height: 32px;
+  color: #999999;
+} 
+.discount-rorm input::-moz-placeholder          {
+  font-size:16px;
+  line-height: 32px;
+  color: #999999;
+  }/* Firefox 19+ */
+.discount-rorm input-moz-placeholder            {
+  font-size:16px;
+  line-height: 32px;
+  color: #999999;
+  }/* Firefox 18- */
+.discount-rorm input:-ms-input-placeholder      {
+  font-size:16px;
+  line-height: 32px;
+  color: #999999;
+}
