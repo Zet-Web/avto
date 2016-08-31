@@ -651,8 +651,16 @@ textarea:-ms-input-placeholder {
   font-size: 30px;
   font-weight: 500;
   line-height: 80px;
+<<<<<<< HEAD
   text-transform: uppercase;
   letter-spacing: 0.25px;
+=======
+  text-transform: none;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 500;
+  /* letter-spacing: 1.7px; */
+>>>>>>> d3281f7ffe883666c516647f086938c402c0181c
 }
 
 .main-title  h1 {
@@ -1558,7 +1566,7 @@ width: 1200px;
 
 .delivery .main-title {
   margin-top: 45px;
-  letter-spacing: -.05em;
+  letter-spacing: 0.7px;
 }
 
 .delivery .container {
@@ -1579,6 +1587,11 @@ width: 1200px;
   margin-top: 80px;
   text-transform: uppercase;
   color: black;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .delivery .del-way hr {
@@ -1594,6 +1607,10 @@ width: 1200px;
   font-weight: 400;
   padding: 0 42px;
   color: #333;
+  color: #333;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .pay-way {
@@ -1611,7 +1628,7 @@ width: 1200px;
 .dostavka {
   height: 625px;
   padding-top: 1px;
-  background: url('../img/dostavka.jpg') no-repeat center center;
+  background: url('../img/map.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -1620,8 +1637,14 @@ width: 1200px;
   font-weight: 500;
   line-height: 80px;
   margin: 20px 0;
-  letter-spacing: -.05em;
+  /* letter-spacing: -.05em; */
   color: white;
+  color: #333;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 80px;
+  text-transform: uppercase;
 }
 
 .get-questions {
@@ -1721,6 +1744,7 @@ footer .top-foot .foot-logo {
 footer .top-foot .foot-tel-box {
   float: left;
   width: 415px;
+  margin-left: 80px;
 }
 
 footer .top-foot .foot-tel {
@@ -1730,6 +1754,10 @@ footer .top-foot .foot-tel {
   letter-spacing: -.05em;
   text-transform: uppercase;
   color: white;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 footer .top-foot .foot-tel-box .foot-tel-1 {
@@ -1740,8 +1768,14 @@ footer .top-foot .adress-foot {
   font-size: 16px;
   font-weight: 300;
   margin-top: 5px;
-  opacity: .5;
+  /* opacity: .5; */
   color: white;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 footer .top-foot #order-btn {
@@ -1770,8 +1804,8 @@ footer .top-foot #order-btn:after {
 }
 
 footer .top-foot .social {
-  float: left;
-  margin-top: 12px;
+  float: right;
+  margin-top: 4px;
   margin-left: 17px;
 }
 
@@ -1790,6 +1824,9 @@ footer .bot-foot .copyright {
   font-weight: 300;
   text-align: center;
   color: white;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 /*******************
