@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic,latin-ext';
+@import 'https: //fonts.googleapis.com/css?family=Roboto:100, 300, 400, 500, 700, 900&subset=cyrillic, latin-ext';
 
 /* Webfont: PFDinDisplayPro-Medium */
 @font-face {
@@ -12,14 +12,27 @@
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
+
+@font-face {
+    font-family: 'pf_dindisplay_promedium';
+    src: url('../fonts/pfdin/fontscore.com_p_pfdindisplaypromedium.eot');
+    src: url('../fonts/pfdin/fontscore.com_p_pfdindisplaypromedium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdin/fontscore.com_p_pfdindisplaypromedium.woff') format('woff'),
+         url('../fonts/pfdin/fontscore.com_p_pfdindisplaypromedium.ttf') format('truetype'),
+         url('fontscore.com_p_pfdindisplaypromedium.svg#pf_dindisplay_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .brands #image .item:nth-of-type(12+12) {
-  margin-right:0;
+  margin-right: 0;
 }
 
 .advantages .main-title h1 {
   line-height: 50px;
   margin-top: 16px;
 }
+
 .Clear {
   clear: both;
 }
@@ -115,7 +128,7 @@
   -ms-transform: translateX(-50%) skew(-89deg) scaleX(1.5);
   transform: translateX(-50%) skew(-89deg) scaleX(1.5);
   opacity: 0;
-  background: #F7EA44;
+  background: #ff3333;
   -webkit-transition: all 0.3s cubic-bezier(0.42, 0.08, 0, 1.8);
   transition: all 0.3s cubic-bezier(0.42, 0.08, 0, 1.8);
 }
@@ -161,13 +174,13 @@
 
 #main-menu .nav {
   float: none;
-  width: 1180px;
+  width: 1270px;
   margin: auto;
   height: 44px;
   background-color: transparent;
   /* position: absolute; */
   z-index: 9999;
-  padding-left: 7px;
+  padding-left: 37px;
   top: 0;
 }
 
@@ -196,7 +209,7 @@
   display: inline-block;
   margin-top: 0px;
   margin-right: 30px;
-  letter-spacing: -0.29px;
+  letter-spacing: 0.55px;
   text-transform: uppercase;
   color: #333;
   font-weight: 400;
@@ -205,9 +218,12 @@
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 0;
+  /* font-family: 'PFDinDisplayProMedium'; */
+  font-family: 'pf_dindisplay_promedium', sans-serif;
 }
 
 .get-call {
+
   /* font-size: 18px; */
   font-weight: 700;
   line-height: 42px;
@@ -222,8 +238,8 @@
   text-transform: uppercase;
   color: white;
   border: 1px solid #ca9100;
-  border-radius: 3px;
-  /* background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%); */
+  border-radius: 3px;  /* background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%); */
+
   /* background-image: linear-gradient(to top, #f1cb00 0%, #f7ea44 100%); */
   box-shadow: 0 3px 0 #d01111;
   background-color: #f33;
@@ -262,6 +278,7 @@
   margin-top: 122px;
   /*background: rgba(0, 0, 0, 0) url("../img/baner-1.jpg") no-repeat scroll center center / cover ;*/
   background: rgba(0, 0, 0, 0) url('../img/main5_02.png') no-repeat scroll center center / cover;
+  background-attachment: scroll;
 }
 
 .slider-baner .slide {
@@ -269,6 +286,7 @@
 }
 
 .slider-baner .slide h1 {
+
   /* font-size: 60px; */
   font-weight: 400;
   line-height: 39px;
@@ -328,8 +346,7 @@ b {
 
 .slider-baner .wrapper .form .form-head {
   height: 60px;
-  padding-top: 1px;
-  /* background-color: #ffd800; */
+  padding-top: 1px;  /* background-color: #ffd800; */
 }
 
 .slider-baner .wrapper .form-body {
@@ -342,8 +359,7 @@ b {
 
 .slider-baner .wrapper .form-foot {
   height: 94px;
-  padding-top: 1px;
-  /* background-color: #f6f6f6; */
+  padding-top: 1px;  /* background-color: #f6f6f6; */
 }
 
 .slider-baner .wrapper .form-foot #get-discount {
@@ -370,6 +386,7 @@ b {
   width: 207px;
   height: 40px;
   border: none;
+  box-shadow: 0px 4px 3px #d01111;
 }
 
 .form {
@@ -605,7 +622,7 @@ textarea:-ms-input-placeholder {
 
 .brands .model-name {
   color: #666;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   display: block;
@@ -635,7 +652,7 @@ textarea:-ms-input-placeholder {
   font-weight: 500;
   line-height: 80px;
   text-transform: uppercase;
-  letter-spacing: 0.35px;
+  letter-spacing: 0.25px;
 }
 
 .main-title  h1 {
@@ -655,10 +672,10 @@ textarea:-ms-input-placeholder {
 .brands #image {
   position: relative;
   margin: 0 0;
-  padding: 10px;
-  top: 10px;
+  padding: 0;
+  top: -20px;
   left: -5px;
-  height: 397px;
+  /* height: 397px; */
   overflow-x: hidden;
   width: 1230px;
 }
@@ -674,7 +691,7 @@ textarea:-ms-input-placeholder {
   transition: all .25s;
   transform: translateZ(0px);
   border-radius: 49px;
-  margin-right: 6px;
+  margin-right: 1px;
   text-align: center;
 }
 
@@ -748,7 +765,7 @@ textarea:-ms-input-placeholder {
   width: 455px;
   height: 400px;
   margin: 10px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .advantages .box-wrapper .box:nth-of-type(2n+2) {
@@ -761,24 +778,26 @@ textarea:-ms-input-placeholder {
 }
 
 .advantages .box-wrapper .box h4 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 20px;
+  /* font-weight: 600; */
   margin-bottom: 10px;
   padding: 0 60px;
   text-align: center;
-  letter-spacing: -.05em;
   text-transform: uppercase;
   color: black;
-  letter-spacing: -2.15px;
+  font-weight: normal;
+  font-family: Roboto;
+  font-weight: 600;
 }
 
 .advantages .box-wrapper .box p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   /* padding: 0 60px; */
   text-align: center;
-  letter-spacing: -.05em;
   color: black;
+  padding: 0 20%;
+  font-family: Roboto;
 }
 
 .color-palette {
@@ -874,7 +893,7 @@ textarea:-ms-input-placeholder {
     z-index: 2;
     top: 8px;
     right: 15px;
-    content: 'ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒâ€šÃ‚Â°';
+    content: 'ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°';
     pointer-events: none;
   }
 
@@ -1081,6 +1100,8 @@ background: #c0392b;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  font-family: Roboto;
+  text-transform: uppercase;
 }
 
 .seo-text h2:before,
@@ -1093,8 +1114,7 @@ background: #c0392b;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
-  flex-grow: 1;
-  /*  border: 10px solid #f4dc26;*/
+  flex-grow: 1;  /*  border: 10px solid #f4dc26;*/
 }
 
 .seo-text h2:before {
@@ -1106,7 +1126,7 @@ background: #c0392b;
 }
 
 .seo-text ul li {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .seo-text ol li {
@@ -1121,7 +1141,7 @@ background: #c0392b;
 
 .seo-text-box {
   position: relative;
-  margin-top: -30px;
+  margin-top: -36px;
   padding: 50px;
   text-align: justify;
   -moz-column-count: 2;
@@ -1170,6 +1190,7 @@ background: #c0392b;
 }
 
 .complekt .main-title {
+
   /* margin-bottom: 20px; */
 }
 
@@ -1193,7 +1214,7 @@ background: #c0392b;
 }
 
 .complekt .container .col.three:hover {
-  border: 10px solid #ec1c23;
+  border: 5px solid #ec1c23;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .5);
 }
 
@@ -1207,7 +1228,7 @@ background: #c0392b;
   color: #333;
   font-family: Roboto;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: normal;
 }
 
 .complekt .container .col img {
@@ -1219,9 +1240,9 @@ background: #c0392b;
 .complekt .container .price {
   display: inline-block !important;
   position: static;
-  bottom: 59px;
+  bottom: 39px;
   display: block;
-  width: 358px;
+  /* width: 358px; */
   text-align: center;
   color: #76ad21;
   font-family: Roboto;
@@ -1259,11 +1280,11 @@ background: #c0392b;
   margin-left: -90px;
   text-transform: uppercase;
   color: black;
-  border: 1px solid #ca9100;
-  /* border-radius: 50px; */
-  background-color: #afafaf;
-  /* background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%); */
+  border: 1px solid #ca9100;  /* border-radius: 50px; */
+  background-color: #afafaf;  /* background-image: -webkit-linear-gradient(bottom, #f1cb00 0%, #f7ea44 100%); */
+
   /* background-image: linear-gradient(to top, #f1cb00 0%, #f7ea44 100%); */
+
   /* box-shadow: 0 3px 0 #ca9100; */
   width: 252px;
   height: 40px;
@@ -1288,7 +1309,7 @@ background: #c0392b;
 
 .how-buy .main-title {
   margin-top: 0;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .how-buy #order-btn {
@@ -1322,8 +1343,7 @@ background: #c0392b;
 .cant-find .main-title {
   margin-top: 116px;
   margin-bottom: 0;
-  letter-spacing: -.05em;
-  /* background: #FFF; */
+  letter-spacing: -.05em;  /* background: #FFF; */
   display: inline-block;
   margin: auto;
   background: #FFF;
@@ -1335,8 +1355,7 @@ background: #c0392b;
   font-weight: 500;
   line-height: 40px;
   margin-top: 130px;
-  text-align: center;
-  /* letter-spacing: -.05em; */
+  text-align: center;  /* letter-spacing: -.05em; */
   color: black;
   color: #000;
   font-family: Roboto;
@@ -1412,11 +1431,10 @@ background: #c0392b;
   position: relative;
   float: left;
   text-align: center;
-  border: 1px solid #e9e9e9;
-  /*  height: 310px;*/
+  border: 1px solid #e9e9e9;  /*  height: 310px;*/
+
   /*  height: 254px;*/
-  background-color: white;
-  /* overflow: visible; */
+  background-color: white;  /* overflow: visible; */
   margin-top: 50px;
 }
 
@@ -1805,6 +1823,11 @@ footer .bot-foot .copyright {
   user-select: none;
   -khtml-user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.advantages .container {
+  position: relative;
+  z-index: 999;
 }
 
 .container {
@@ -2558,10 +2581,11 @@ footer .bot-foot .copyright {
 
 .seo-text p {
   color: #333;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: -0.05em;
+  line-height: 18px;
+  /* letter-spacing: -0.05em; */
+  font-family: Roboto;
 }
 
 .countbox-num {
@@ -2858,7 +2882,7 @@ div.clock-delit {
   font-size: 16px;
 }
 
-/*ÃƒÆ’Ã‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â·ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¼ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¶ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â½ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬ËœÃƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â±ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â° ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂµÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â° ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â°ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂºÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¸ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂºÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â°*/
+/*ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°*/
 .color {
 
   /*  padding-top: 25px;*/
@@ -3168,8 +3192,8 @@ h1.car-model {
 
 .accordion2 li h3 a {
   text-decoration: none;                    /*background:             #666;
-                    background:             #666 -webkit-gradient(linear, left top, left bottom, from(#999), to(#666)) no-repeat;
-                    background:             #666 -moz-linear-gradient(top,  #999,  #666) no-repeat;*/
+                      background:             #666 -webkit-gradient(linear, left top, left bottom, from(#999), to(#666)) no-repeat;
+                      background:             #666 -moz-linear-gradient(top,  #999,  #666) no-repeat;*/
   color: #ec1d24;
   display: block;
   font-style: normal;                   /*padding: 21px 0;*/
@@ -3256,44 +3280,73 @@ h1.car-model {
   line-height: 14px;
   font-family: 'Roboto', sans-serif;
   margin-top: 5px;
-  margin-left: 0px;
-  /* left: -20px; */
+  margin-left: 0px;  /* left: -20px; */
   text-align: left;
 }
+
 .tel-box .inner-1.box-head {
   position: absolute;
   left: 112px;
-  }
+}
+
 .tel-box .inner-2.box-head {
   position: absolute;
   right: 45px;
-  }
-  .strike-red {
-    display:inline-block;
-    color: #ec1c23;
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 500;
-    text-decoration: line-through;
-    position: static;
-  }
-  .discount-rorm input::-webkit-input-placeholder {
-  font-size:16px;
+}
+
+.strike-red {
+  display: inline-block;
+  color: #ec1c23;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: line-through;
+  position: static;
+}
+
+.discount-rorm input::-webkit-input-placeholder {
+  font-size: 16px;
   line-height: 32px;
   color: #999999;
-} 
-.discount-rorm input::-moz-placeholder          {
-  font-size:16px;
+}
+
+.discount-rorm input::-moz-placeholder {
+  font-size: 16px;
   line-height: 32px;
   color: #999999;
-  }/* Firefox 19+ */
-.discount-rorm input-moz-placeholder            {
-  font-size:16px;
+}
+.advantages:after {
+  width:100%;
+  content: "";
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top:0;
+  left:0;
+}
+/* Firefox 19+ */
+.discount-rorm input-moz-placeholder {
+  font-size: 16px;
   line-height: 32px;
   color: #999999;
-  }/* Firefox 18- */
-.discount-rorm input:-ms-input-placeholder      {
-  font-size:16px;
+}
+
+/* Firefox 18- */
+.discount-rorm input:-ms-input-placeholder {
+  font-size: 16px;
   line-height: 32px;
   color: #999999;
+}
+
+.time-to span {
+  display: block;
+  margin-left: 10px;
+  /* color: #ffd800; */
+  color: #ff3333;
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 76px;
+  padding-left: 0;
+  margin-left: 30px;
 }
